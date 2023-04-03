@@ -5,7 +5,7 @@ import CategoriesNavbar from "../../molecules/categoriesNavbar";
 import ProductsContainer from "./organisms/productsContainer";
 import AboutBlinkit from "../../atoms/aboutBlinkit";
 import Footer from "../../molecules/footer";
-import Advantages from "../../molecules/advantages/Advantages";
+import Advantages from "../../molecules/advantages/";
 import ErrorBoundary from "../../helpers/errorBoundary";
 import PropTypes from "prop-types";
 import lodash from "lodash";

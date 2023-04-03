@@ -1,3 +1,3 @@
-import AdvantageCard from "./advantageCard";
+import Advantages from "./Advantages";
 
-export default AdvantageCard;
+export default Advantages;

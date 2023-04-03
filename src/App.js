@@ -25,12 +25,6 @@ class App extends React.Component {
   };
 
   addItemInCart = (product) => {
-    if (!this.state.displayCartItems) {
-      this.setState({
-        displayCartItems: true,
-      });
-    }
-
     let cartData = this.state.cartData;
     const id = product["product__id"];
     cartData.set(id, product);
@@ -78,7 +72,7 @@ class App extends React.Component {
     let mrpPrice = 0,
       actualPrice = 0,
       cartItemsCount = 0,
-      totalCount = cartItemsCount,
+      totalCount = 0,
       cartItemsValue = 0;
 
     console.log("App render", cartData);
@@ -89,6 +83,7 @@ class App extends React.Component {
       mrpPrice += parseInt(product["product__oldPrice"]) * parseInt(value);
       cartItemsValue = actualPrice;
       cartItemsCount += parseInt(value);
+      totalCount = cartItemsCount;
     });
 
     let displayCartItems = false;

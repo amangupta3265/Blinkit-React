@@ -1,6 +1,6 @@
 import React from "react";
 import AboutBlinkit from "../../atoms/aboutBlinkit";
-import Advantages from "../../molecules/advantages/Advantages";
+import Advantages from "../../molecules/advantages/";
 import CategoriesNavbar from "../../molecules/categoriesNavbar";
 import Footer from "../../molecules/footer";
 import TopNavbar from "../../molecules/topNavbar";
