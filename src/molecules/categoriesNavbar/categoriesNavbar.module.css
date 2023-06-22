@@ -1,0 +1,10 @@
+.categories {
+  color: gray;
+  border-bottom: 0.1rem solid #f5f5f5;
+  justify-content: center;
+}
+
+.flexRow {
+  display: flex;
+  align-items: center;
+}
